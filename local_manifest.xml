@@ -9,16 +9,16 @@
   <!-- Device Tree -->
   <project path="device/xiaomi/vayu" name="device_xiaomi_vayu" remote="pixelos-devices" revision="t-next"/>
 
- <!-- Common Device Tree 
+  <!-- Common Device Tree 
   <project path="device/xiaomi/sm8150-common" name="device_xiaomi_sm8150-common" remote="fisuri" revision=""/> -->
 
- <!-- Vendor tree-->
+  <!-- Vendor tree-->
   <project path="vendor/xiaomi/vayu" name="vendor_xiaomi_vayu" remote="clhex" revision="t"/>
 
- <!-- Kernel Trees-->
+  <!-- Kernel Trees-->
   <project path="kernel/xiaomi/vayu" name="kernel_xiaomi_vayu" remote="clhex" revision="t-rec"/>
 
- <!-- Hardware -->
+  <!-- Hardware -->
   <project path="hardware/xiaomi" name="hardware_xiaomi" remote="fisuri" revision=""/>
 
 </manifest>
