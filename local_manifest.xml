@@ -6,16 +6,16 @@
   <!-- Device Tree -->
   <project path="device/xiaomi/vayu" name="device_xiaomi_vayu" remote="fisuri" revision=""/>
 
- <!-- Common Device Tree -->
+  <!-- Common Device Tree -->
   <project path="device/xiaomi/sm8150-common" name="device_xiaomi_sm8150-common" remote="fisuri" revision=""/>
 
- <!-- Kernel Trees-->
-  <project path="kernel/xiaomi/vayu" name="kernel_xiaomi_vayu" remote="fisuri" revision=""/>
-
- <!-- Vendor tree-->
+  <!-- Vendor tree-->
   <project path="vendor/xiaomi/vayu" name="vendor_xiaomi_vayu" remote="fisuri" revision=""/>
 
- <!-- Hardware -->
+  <!-- Kernel Trees-->
+  <project path="kernel/xiaomi/vayu" name="kernel_xiaomi_vayu" remote="fisuri" revision=""/>
+
+  <!-- Hardware -->
   <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="fisuri" revision=""/>
 
 </manifest>
