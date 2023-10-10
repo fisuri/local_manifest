@@ -2,20 +2,23 @@
 <manifest>
 
   <remote name="fisuri" fetch="https://github.com/fisuri" />
+  <remote name="pixelos-aosp" fetch="https://github.com/PixelOS-AOSP" />
+  <remote name="pixelos-devices" fetch="https://github.com/PixelOS-Devices" />
+  <remote name="clhex" fetch="https://github.com/aosp-clhex" />
 
   <!-- Device Tree -->
-  <project path="device/xiaomi/vayu" name="device_xiaomi_vayu" remote="fisuri" revision=""/>
+  <project path="device/xiaomi/vayu" name="device_xiaomi_vayu" remote="pixelos-devices" revision="t-next"/>
 
- <!-- Common Device Tree -->
-  <project path="device/xiaomi/sm8150-common" name="device_xiaomi_sm8150-common" remote="fisuri" revision=""/>
-
- <!-- Kernel Trees-->
-  <project path="kernel/xiaomi/vayu" name="kernel_xiaomi_vayu" remote="fisuri" revision=""/>
+ <!-- Common Device Tree 
+  <project path="device/xiaomi/sm8150-common" name="device_xiaomi_sm8150-common" remote="fisuri" revision=""/> -->
 
  <!-- Vendor tree-->
-  <project path="vendor/xiaomi/vayu" name="vendor_xiaomi_vayu" remote="fisuri" revision=""/>
+  <project path="vendor/xiaomi/vayu" name="vendor_xiaomi_vayu" remote="clhex" revision="t"/>
+
+ <!-- Kernel Trees-->
+  <project path="kernel/xiaomi/vayu" name="kernel_xiaomi_vayu" remote="clhex" revision="t-rec"/>
 
  <!-- Hardware -->
-  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="fisuri" revision=""/>
+  <project path="hardware/xiaomi" name="hardware_xiaomi" remote="fisuri" revision=""/>
 
 </manifest>
