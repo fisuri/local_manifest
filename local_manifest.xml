@@ -13,7 +13,7 @@
   <project path="device/xiaomi/sm8150-common" name="device_xiaomi_sm8150-common" remote="fisuri" revision=""/> -->
 
   <!-- Vendor tree-->
-  <project path="vendor/xiaomi/vayu" name="vendor_xiaomi_vayu" remote="clhex" revision="t"/>
+  <project path="vendor/xiaomi/vayu" name="vendor_xiaomi_vayu" remote="pixelos-devices" revision="thirteen"/>
 
   <!-- Kernel Trees-->
   <project path="kernel/xiaomi/vayu" name="kernel_xiaomi_vayu" remote="clhex" revision="t-rec"/>
