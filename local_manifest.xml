@@ -16,7 +16,7 @@
   <project path="vendor/xiaomi/vayu" name="vendor_xiaomi_vayu" remote="pixelos-devices" revision="thirteen"/>
 
   <!-- Kernel Trees-->
-  <project path="kernel/xiaomi/vayu" name="kernel_xiaomi_vayu" remote="clhex" revision="t-rec"/>
+  <project path="kernel/xiaomi/vayu" name="kernel_xiaomi_vayu" remote="pixelos-devices" revision="twelve"/>
 
   <!-- Hardware 
   <project path="hardware/xiaomi" name="hardware_xiaomi" remote="pixelos-aosp" revision="thirteen"/>
